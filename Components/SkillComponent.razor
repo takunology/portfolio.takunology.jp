@@ -1,0 +1,109 @@
+﻿@inject HttpClient client;
+
+<div class="my-5">
+    <h3>スキル</h3>
+    <p>@SkillData.Comment</p>
+    <div class="row my-4">
+        <h5>プログラミング言語</h5>
+        @foreach(var item in SkillData.ProgramLangList)
+        {
+        <div class="col-xxl-3 col-xl-5 col-ms-5 border me-2 my-2">
+            <div class="row h-100">
+                <div class="col-xxl-3 col-2 pt-3">
+                    <img src="@item.IconPath" class="img-fluid d-block m-auto pe-2" style="max-width:64px;"/>
+                </div>
+                <div class="col-xxl-9 col-10">
+                    <div class="row ps-ms-3 pt-3">
+                        <h5>@item.Name</h5>
+                        <p>@item.Comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+    <div class="row my-4">
+        <h5>マークアップ言語</h5>
+        @foreach(var item in SkillData.MarkupList)
+        {
+        <div class="col-xxl-3 col-xl-5 col-ms-5 border me-2 my-2">
+            <div class="row">
+                <div class="col-xxl-3 col-2 pt-3">
+                    <img src="@item.IconPath" class="img-fluid d-block m-auto pe-2" style="max-width:64px;"/>
+                </div>
+                <div class="col-xxl-9 col-10">
+                    <div class="row ps-ms-3 pt-3">
+                        <h5>@item.Name</h5>
+                        <p>@item.Comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        }
+    </div>
+    <div class="row my-4">
+        <h5>フレームワーク</h5>
+        @foreach(var item in SkillData.FrameworkList)
+        {
+        <div class="col-xxl-3 col-xl-5 col-ms-5 border me-2 my-2">
+            <div class="row">
+                <div class="col-xxl-3 col-2 pt-3">
+                    <img src="@item.IconPath" class="img-fluid d-block m-auto pe-2" style="max-width:64px;"/>
+                </div>
+                <div class="col-xxl-9 col-10">
+                    <div class="row ps-2 pt-3">
+                        <h5>@item.Name</h5>
+                        <p>@item.Comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        }
+    </div>
+    <div class="row my-4">
+        <h5>クラウド (Microsoft Azure)</h5>
+        @foreach(var item in SkillData.CloudList)
+        {
+        <div class="col-xxl-3 col-xl-5 col-ms-5 border me-2 my-2">
+            <div class="row">
+                <div class="col-xxl-3 col-2 pt-3">
+                    <img src="@item.IconPath" class="img-fluid d-block m-auto pe-2" style="min-width:64px"/>
+                </div>
+                <div class="col-xxl-9 col-10">
+                    <div class="row ps-2 pt-3">
+                        <h5>@item.Name</h5>
+                        <p>@item.Comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        }
+    </div>
+    <div class="row my-4">
+        <h5>その他</h5>
+        @foreach(var item in SkillData.OtherList)
+        {
+        <div class="col-xxl-3 col-xl-5 col-ms-5 border me-2 my-2">
+            <div class="row">
+                <div class="col-xxl-3 col-2 pt-3">
+                    <img src="@item.IconPath" class="img-fluid d-block m-auto pe-2" style="max-width:64px"/>
+                </div>
+                <div class="col-xxl-9 col-10">
+                    <div class="row ps-2 pt-3">
+                        <h5>@item.Name</h5>
+                        <p>@item.Comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>
+
+@code {
+    private SkillData SkillData { get; set; } = new SkillData();
+    protected override async Task OnInitializedAsync()
+    {
+        this.SkillData = await JsonDeserializer.Deserialize<SkillData>(client, "json/Skill.json");
+    }
+}

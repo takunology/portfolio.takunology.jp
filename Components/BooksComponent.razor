@@ -1,0 +1,40 @@
+﻿@inject HttpClient client
+
+
+<div class="my-5">
+    <h3>出版物</h3>
+        @foreach(var item in BookData.BookList)
+        {
+            <div class="card mb-3">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="@item.ImageLink" class="d-block m-auto p-3" style="max-height:256px"/>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="card-body">
+                            <h4>@item.Title</h4>
+                            <strong>@item.Date 公開</strong><br/>
+                            @if(item.Price > 0)
+                            {
+                                <strong>価格 @(item.Price)円 (税込 @((int)(item.Price * 1.1))円)</strong>
+                            }
+                            else 
+                            {
+                                <strong><text style="color:red;">無料</text>で読めます！</strong>
+                            }
+                            <p>@item.Description</p>
+                            <a href="@item.BookLink" target="_blank" rel="noopener noreferrer" class="btn btn-primary">本の詳細</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+</div>
+
+@code {
+    private BookData BookData { get; set; } = new BookData();
+    protected override async Task OnInitializedAsync()
+    {
+        this.BookData = await JsonDeserializer.Deserialize<BookData>(client, "json/Book.json");
+    }
+}

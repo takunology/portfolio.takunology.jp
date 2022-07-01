@@ -1,0 +1,52 @@
+{
+    "works" : [
+        {
+            "title" : "CrayfishMonitor",
+            "type" : "デスクトップアプリ",
+            "tech" : ["C#", ".NET", "WPF", "Arduino"],
+            "description" : "大学の実験用に開発した、ザリガニの心筋活動をモニタリングするためのアプリです。",
+            "link" : "disable",
+            "img" : "images/works/crayfish.png"
+        },
+        {
+            "title" : "マインクラフト花火大会 (Pre-2021)",
+            "type" : "エンターテインメント",
+            "tech" : ["C#", ".NET", "Console", "Minecraft"],
+            "description" : "MinecraftConnection を使用してマイクラ花火大会の実現に向けたサンプル動画です。シェーダーをうまく利用することで本物の花火大会に近づけることができます。",
+            "link" : "https://www.youtube.com/embed/9yzj5DeJ94c",
+            "img" : "youtube"
+        },
+        {
+            "title" : "Minecraft with Code Project Webサイト",
+            "type" : "Web アプリ",
+            "tech" : ["HTML/CSS", "C#", "ASP.NET Core", "Bootstrap"],
+            "description" : "Minecraft with Code Project の公式サイトです。",
+            "link" : "https://www.mcwithcode.com/",
+            "img" : "images/works/mcwithcode.png"
+        },
+        {
+            "title" : "MinecraftConnection",
+            "type" : "OSS",
+            "tech" : ["C#", ".NET", "Minecraft"],
+            "description" : "Minecraft のコマンドを C# で実行できるようにしたライブラリです。",
+            "link" : "https://github.com/takunology/MinecraftConnection",
+            "img" : "images/works/mclogo.png"
+        },
+        {
+            "title" : "TakuMaze",
+            "type" : "ゲームアプリ",
+            "tech" : ["C", "QEMU", "MieruEMB"],
+            "description" : "小型コンピュータ MieruEMB (QEMU) 上で動作する迷路ゲームです。にゃびんごさんとの共同製作になります。",
+            "link" : "https://github.com/takunology/TakuMazeOnMieruEMB",
+            "img" : "images/works/takumaze.png"
+        },
+        {
+            "title" : "EMBATC",
+            "type" : "デスクトップアプリ",
+            "tech" : ["C#", ".NET Framework", "WPF", "MieruEMB"],
+            "description" : "MieruEMB で画像を表示させるための変換ツールです。",
+            "link" : "https://github.com/takunology/EMBATC",
+            "img" : "images/works/embatc.png"
+        }
+    ]
+}

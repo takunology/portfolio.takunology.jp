@@ -1,0 +1,32 @@
+{
+    "activity" : [
+        {
+            "title" : "たくのろじぃのメモ部屋",
+            "type" : "ブログ",
+            "description" : "主に .NET 関連の技術について学んだことや共有したいこと、試してみたことなどを書いています。また、マイクラに関する Tips 的なものや雑記などもあります。",
+            "link" : "https://blog.takunology.jp/",
+            "img" : "images/activity/blog.png"
+        },
+        {
+            "title" : "Microsoft Learn Student Ambassadors",
+            "type" : "コミュニティ",
+            "description" : "Microsoft 製品や技術について広めていく活動を行っており、月に一度を目安にイベントを開催しています",
+            "link" : "https://studentambassadors.microsoft.com/en-US/profile/80927",
+            "img" : "images/activity/mlsa.png"
+        },
+        {
+            "title" : "Minecraft with Code Project 企画・運営",
+            "type" : "コミュニティ",
+            "description" : "Minecraft と プログラミング (主に C#) を組み合わせた新しいコンテンツづくりに挑戦しています。",
+            "link" : "https://www.mcwithcode.com/",
+            "img" : "images/activity/mcwithcode.png"
+        },
+        {
+            "title" : "MinecraftConnection ライブラリ開発",
+            "type" : "OSS活動",
+            "description" : "マイクラのコマンドを C# から実行できるようにするライブラリの開発を行っています。",
+            "link" : "https://github.com/takunology/MinecraftConnection",
+            "img" : "images/activity/mclogo.png"
+        }
+    ]
+}

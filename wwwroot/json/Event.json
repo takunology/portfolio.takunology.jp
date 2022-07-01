@@ -1,0 +1,34 @@
+{
+    "event" : [
+        {
+            "date" : "2021年10月31日",
+            "title" : "MS Tech Camp 1周年記念",
+            "subtitle" : "「アナログをデジタルにする」をテーマにしたトークイベント",
+            "description" : "MinecraftConnection ライブラリによる C# マイクラプログラミングについての LT 登壇と、ライブコーディング (Azure Function) を担当しました。",
+            "link_event" : "https://mspjp.connpass.com/event/223387/",
+            "link_document" : "https://speakerdeck.com/takunology/minecraftconnection-raiburariniyorumaikurapuroguramingu",
+            "link_video" : "https://youtu.be/VDV_Web6_Ug",
+            "link_img" : "https://connpass-tokyo.s3.amazonaws.com/thumbs/69/93/699354774f1f0c89e3857d0fe5c499bc.png"
+        },
+        {
+            "date" : "2021年8月27日",
+            "title" : "MS Tech Camp #10",
+            "subtitle" : "Azure FunctionsとMinecraftで打ち上げ花火を楽しもう！",
+            "description" : "Azure Functions と MinecraftConnection ライブラリを用いてマイクラサーバ内で花火大会を行う方法について紹介しました。",
+            "link_event" : "https://mspjp.connpass.com/event/220071/",
+            "link_document" : "https://github.com/mspjp/20210827-MinecraftFireworksProgramming",
+            "link_video" : "https://youtu.be/lgh5zT_w9Ds",
+            "link_img" : "https://connpass-tokyo.s3.amazonaws.com/thumbs/9b/83/9b839dbce2b6c5a62d6481617ca566ba.png"
+        },
+        {
+            "date" : "2021年4月16日",
+            "title" : "MS Tech Camp #6",
+            "subtitle" : "Azure Virtual Machines で Minecraft Server を構築しよう！",
+            "description" : "Microsoft のクラウドサービスの一つである仮想マシン (Azure VM) を使用して Minecraft Server を構築し、マルチプレイで遊ぶ方法について紹介しました。",
+            "link_event" : "https://mspjp.connpass.com/event/208491/",
+            "link_document" : "https://github.com/mspjp/20210416-azurevm-minecraftserver",
+            "link_video" : "https://youtu.be/ThW6xoN73qE",
+            "link_img" : "https://connpass-tokyo.s3.amazonaws.com/thumbs/91/b0/91b07663b60ea9b3a1d908e69fdabb1c.png"
+        }
+    ]
+}

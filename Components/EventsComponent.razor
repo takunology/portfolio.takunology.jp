@@ -1,0 +1,32 @@
+﻿@inject HttpClient client;
+
+<div class="my-5">
+<h3>これまでのイベント登壇</h3>
+    <div class="row">
+    @foreach (var item in EventData.EventList)
+    {
+    <div class="col col-xl-4 col-lg-6 col-md-12 col-sm-12 mb-3">
+        <div class="card h-100" style="min-width:18rem;">
+            <img src="@item.ImageLink" class="card-img-top" />
+            <div class="card-body">
+                <p><strong>@item.Date 開催</strong></p>
+                <h4>@item.Title</h4>
+                <strong>@item.SubTitle</strong>
+                <p>@item.Description</p>
+                <a href="@item.EventLink" target="_blank" rel="noopener noreferrer" class="btn btn-primary m-1">詳細</a>
+                <a href="@item.DocumentLink" target="_blank" rel="noopener noreferrer" class="btn btn-primary m-1">イベント資料</a>
+                <a href="@item.VideoLink" target="_blank" rel="noopener noreferrer" class="btn btn-primary m-1">動画</a>
+            </div>
+        </div>
+    </div>
+    }
+    </div>
+</div>
+
+@code {
+    private EventData EventData { get; set; } = new EventData();
+    protected override async Task OnInitializedAsync()
+    {
+        this.EventData = await JsonDeserializer.Deserialize<EventData>(client, "json/Event.json");
+    }
+}

@@ -1,0 +1,31 @@
+﻿@inject HttpClient client;
+
+<div class="my-3">
+    <h2>プロフィール</h2>
+    <div class="row my-2">
+        <div class="col-lg-4 d-flex">
+            <img src="images/Takunology_icon.png" class="img-fluid rounded-circle d-block m-auto p-3" style="max-width:250px; max-height:250px;"/>
+        </div>
+        <div class="col-lg-8 d-flex mt-1">
+            <div class="row mx-sm-2">
+                <p><strong>名前</strong><br/>
+                    @ProfileData.Name (@ProfileData.EnName)</p>
+                <p><strong>活動名</strong><br/>
+                    @ProfileData.ActiveName</p>
+                <p><strong>年齢</strong> @ProfileData.Age 歳</p>
+                <p><strong>連絡先メールアドレス</strong> (at は @@ に変えてください)<br/>
+                    @ProfileData.Email</p>
+                <p><strong>所属</strong><br/>
+                    @ProfileData.Job</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private PersonalData ProfileData { get; set; } = new PersonalData();
+    protected override async Task OnInitializedAsync()
+    {
+        this.ProfileData = await JsonDeserializer.Deserialize<PersonalData>(client, "json/Profile.json");
+    }
+}

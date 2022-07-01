@@ -1,0 +1,16 @@
+﻿<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+    </Found>
+    <NotFound>
+        <PageTitle>404 - Not found</PageTitle>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <div class="text-center mt-5">
+                <h2>404 - ページが見つかりませんでした。</h2>
+                <p class="mt-5">(´・ω・｀)ｼｮﾎﾞｰﾝ</p>
+                <p>くコ:彡 Hi! I am Ikanology!</p>
+            </div>
+        </LayoutView>
+    </NotFound>
+</Router>

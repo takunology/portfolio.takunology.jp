@@ -1,0 +1,33 @@
+﻿@page "/"
+@inject HttpClient client
+
+<PageTitle>Takunology Works.</PageTitle>
+
+<section >
+    <ProfileComponent/>
+</section>
+<section >
+    <IntroduceComponent DataSource=@IntroData/>
+</section>
+<section >
+    <HistoryComponent DataSource=@HistoryData/>
+</section>
+<section >
+    <PrizeComponent DataSource=@PrizeData/>
+</section>
+
+<SurveyPrompt Title="このページは Blazor で製作されています。" />
+
+@code {
+    private IntroduceData IntroData { get; set; } = new IntroduceData();
+    private HistoryData HistoryData { get; set; } = new HistoryData();
+    private PrizeData PrizeData { get; set; } = new PrizeData();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        IntroData = await JsonDeserializer.Deserialize<IntroduceData>(client, "json/Introduce.json");
+        HistoryData = await JsonDeserializer.Deserialize<HistoryData>(client, "json/History.json");
+        PrizeData = await JsonDeserializer.Deserialize<PrizeData>(client, "json/Prize.json");
+    }
+}

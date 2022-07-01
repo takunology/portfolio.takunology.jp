@@ -1,0 +1,49 @@
+﻿@inject HttpClient client;
+
+<div class="my-5">
+<h3>製作物・作品など</h3>
+    <div class="row">
+    @foreach (var item in this.WorksData.WorksList)
+    {
+    <div class="col col-xl-4 col-lg-6 col-md-12 col-sm-12 mb-3">
+        <div class="card h-100" style="min-width:18rem;">
+            @if(item.Image == "youtube")
+            {
+                <div class="container ratio ratio-16x9">
+                    <iframe src="@item.Link" title="Fireworks Sample" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            }
+            else
+            {
+                <img src="@item.Image" class="card-img-top" />
+            }
+            <div class="card-body">
+                <h4>@item.Title</h4>
+                <p class="badge bg-secondary">@item.Type</p><br/>
+                        @foreach(var tech in item.TechList)
+                        {
+                            <p class="badge bg-primary m-1">@tech</p>
+                        }
+                <p>@item.Description</p>
+                @if(item.Link == "disable")
+                {
+                    <span class="btn btn-primary disabled">非公開</span>
+                }
+                else
+                {
+                    <a href="@item.Link" target="_blank" rel="noopener noreferrer" class="btn btn-primary">詳細</a>
+                }
+            </div>
+        </div>
+    </div>
+    }
+    </div>
+</div>
+
+@code {
+    private WorksData WorksData { get; set; } = new WorksData();
+    protected override async Task OnInitializedAsync()
+    {
+        this.WorksData = await JsonDeserializer.Deserialize<WorksData>(client, "json/Works.json");
+    }
+}

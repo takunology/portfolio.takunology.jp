@@ -1,0 +1,34 @@
+{
+    "prize" : [
+        {
+            "date":"2015年3月",
+            "name":"東京都産業教育振興会 優良卒業生表彰（技術分野）",
+            "link":"https://www.tosanshin.org/gaiyo/jigyo.html"
+        },
+        {
+            "date":"2017年10月",
+            "name":"全国高等専門学校第28回プログラミングコンテスト 課題部門 敢闘賞",
+            "link":"http://www.procon.gr.jp/wp-content/uploads//2017/04/069c2c996b14ce21790a5eff31aff1aa.pdf"
+        },
+        {
+            "date":"2018年10月",
+            "name":"全国高等専門学校第29回プログラミングコンテスト 自由部門 敢闘賞",
+            "link":"http://www.procon.gr.jp/wp-content/uploads//2018/10/results.pdf"
+        },
+        {
+            "date":"2020年3月",
+            "name":"東京都立産業技術高等専門学校 卒業研究学術賞（電子情報工学コース）",
+            "link":""
+        },
+        {
+            "date":"2021年1月",
+            "name":"Microsoft Learn Student Ambassadors",
+            "link":"https://studentambassadors.microsoft.com/certificate/e524e768-f7f7-4434-90e6-d12dfa17806b"
+        },
+        {
+            "date":"2021年6月",
+            "name":"Microsoft Innovative Educator",
+            "link":"https://onedrive.live.com/?authkey=%21AAb7PPxiBa%2DW578&cid=1A0DE1A22ABCF457&id=1A0DE1A22ABCF457%2130659&parId=1A0DE1A22ABCF457%2130657&o=OneUp"
+        }
+    ]
+}

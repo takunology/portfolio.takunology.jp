@@ -1,0 +1,35 @@
+﻿@inject HttpClient client
+
+<div class="my-5">
+    <h3>主な活動</h3>
+    <div class="row">
+    @foreach(var item in ActivityData.ActivityList)
+        {
+        <div class="col-lg-12 col-md-6 mb-3">
+            <div class="card h-100">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="@item.Image" class="d-block m-auto p-3" style="max-height:156px"/>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="card-body">
+                            <h4>@item.Title</h4>
+                            <p class="badge bg-secondary">@item.Type</p>
+                            <p>@item.Description</p>
+                            <a href="@item.Link" target="_blank" rel="noopener noreferrer" class="btn btn-primary">詳細</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>
+
+@code {
+    private ActivityData ActivityData { get; set; } = new ActivityData();
+    protected override async Task OnInitializedAsync()
+    {
+        this.ActivityData = await JsonDeserializer.Deserialize<ActivityData>(client, "json/Activity.json");
+    }
+}

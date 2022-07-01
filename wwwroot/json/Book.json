@@ -1,0 +1,20 @@
+{
+    "book" : [
+        {
+            "date" : "2022年2月16日",
+            "price" : 0,
+            "title" : "C# ではじめるマインクラフトプログラミング",
+            "description" : "マインクラフトの環境を用いて C# プログラミングによる自動化やアプリ製作など、開発方法を幅広く解説した本です。",
+            "link_book" : "https://zenn.dev/takunology/books/minecraft-programming-book",
+            "link_img" : "images/book/csprog-book.png"
+        },
+        {
+            "date" : "2021年3月18日",
+            "price" : 0,
+            "title" : "Minecraft 農業の自動化",
+            "description" : "Azure Functions で作物の自動回収と種まき、Cosmos DB で収穫記録を行うようなシステムの作り方について紹介しています。",
+            "link_book" : "https://zenn.dev/takunology/books/5c3375fcc105fc",
+            "link_img" : "images/book/mcharvest-book.png"
+        }
+    ]
+}

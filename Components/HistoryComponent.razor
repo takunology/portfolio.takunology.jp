@@ -1,0 +1,25 @@
+﻿<div class="my-5">
+    <h3>経歴</h3>
+    <table class="table table-hover my-1">
+        <thead>
+            <tr>
+                <th style="width:26%" scope="col">日付</th>
+                <th scope="col">学歴・活動</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in DataSource.HistoryList)
+            {
+                <tr>
+                    <td>@item.Date</td>
+                    <td>@item.Event</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    [Parameter]
+    public HistoryData DataSource { get; set; } = new HistoryData();
+}
