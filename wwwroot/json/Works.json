@@ -1,6 +1,14 @@
 {
     "works" : [
         {
+            "title" : "Fireworks Project Webサイト",
+            "type" : "Web アプリ",
+            "tech" : ["HTML/CSS", "TypeScript", "Next.js", "React", "Tailwind css"],
+            "description" : "Minecraft with Code Project / Fireworks Project の公式サイトです。",
+            "link" : "https://fw.mcwithcode.com",
+            "img" : "https://fw.mcwithcode.com/images/00.webp"
+        },
+        {
             "title" : "CrayfishMonitor",
             "type" : "デスクトップアプリ",
             "tech" : ["C#", ".NET", "WPF", "Arduino"],
