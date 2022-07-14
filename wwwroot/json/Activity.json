@@ -27,6 +27,13 @@
             "description" : "マイクラのコマンドを C# から実行できるようにするライブラリの開発を行っています。",
             "link" : "https://github.com/takunology/MinecraftConnection",
             "img" : "images/activity/mclogo.png"
+        },
+        {
+            "title" : "classmall kids プログラミング講師",
+            "type" : "講師",
+            "description" : "マイクラを使用したプログラミング講師を行っています。",
+            "link" : "https://lp.classmall.jp/kids",
+            "img" : ""
         }
     ]
 }

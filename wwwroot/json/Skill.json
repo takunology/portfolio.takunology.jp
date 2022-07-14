@@ -71,6 +71,11 @@
             "icon":"images/skill/framework/bootstrap.png"
         },
         {
+            "name":"Next.js",
+            "comment":"Fireworks Project のサイト構築に使用しています。リファレンスを参照しながらであれば実装できます。",
+            "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png"
+        },
+        {
             "name":"Forge",
             "comment":"マイクラの Mod 開発で少し触った程度ですが、リファレンスを参照しながらであれば実装できます。",
             "icon":"images/skill/framework/forge.jpg"

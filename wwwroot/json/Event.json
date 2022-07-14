@@ -1,6 +1,16 @@
 {
     "event" : [
         {
+            "date" : "2022年4月16日",
+            "title" : "MS Tech Camp #14",
+            "subtitle" : "Blazor (HTML/CSS + C#) でポートフォリオサイトを作成して公開しよう！",
+            "description" : "Blazor テンプレートを使用して Web アプリ開発を行い、作成した Web アプリを Azure Static Web Apps へデプロイして公開するところまでのデモを行いました。",
+            "link_event" : "https://mspjp.connpass.com/event/242827/",
+            "link_document" : "https://speakerdeck.com/takunology/ms-tech-camp-number-14-zi-liao",
+            "link_video" : "https://www.youtube.com/watch?v=23NDl6HMz8A",
+            "link_img" : "https://connpass-tokyo.s3.amazonaws.com/thumbs/46/80/4680c0b0288313efb7eb5e37668cd418.png"
+        },
+        {
             "date" : "2021年10月31日",
             "title" : "MS Tech Camp 1周年記念",
             "subtitle" : "「アナログをデジタルにする」をテーマにしたトークイベント",
