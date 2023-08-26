@@ -9,6 +9,14 @@
             "img" : "https://fw.mcwithcode.com/images/00.webp"
         },
         {
+            "title" : "CrayfishMonitor2.0",
+            "type" : "デスクトップアプリ",
+            "tech" : ["C#", ".NET", "WindowsAppSDK", "WinUI3", "Arduino"],
+            "description" : "WindowsAppSDKで開発したザリガニの親近活動をモニタリングするためのアプリです。計測履歴の管理機能など追加したものになります。",
+            "link" : "disable",
+            "img" : "images/works/crayfish02.png"
+        },
+        {
             "title" : "CrayfishMonitor",
             "type" : "デスクトップアプリ",
             "tech" : ["C#", ".NET", "WPF", "Arduino"],
