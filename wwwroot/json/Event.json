@@ -1,6 +1,86 @@
 {
     "event" : [
         {
+            "date" : "2023年5月13日",
+            "title" : "[渋谷]LINE DC Offline Meetup ~ChatGPT/LLM~",
+            "subtitle" : "LINEとChatGPTの相性の良さと開発体験・事例を語りましょう！",
+            "description" : "家族のために ChatGPT と話せる LINE Bot を作った話というテーマでLT登壇しました",
+            "link_event" : "https://linedevelopercommunity.connpass.com/event/286483/",
+            "link_document" : "https://speakerdeck.com/takunology/jia-zu-notameni-chatgpt-tohua-seru-line-bot-wozuo-tutahua",
+            "link_video" : "https://www.youtube.com/watch?v=iywefWLPzzI",
+            "link_img" : "https://media.connpass.com/thumbs/96/5f/965f514b17abafa0cb4607324e6abc6d.png"
+        },
+        {
+            "date" : "2023年5月13日",
+            "title" : "Global Azure 2023",
+            "subtitle" : "世界中のAzureコミュニティがイベントを開催するGlobal Azure 2023がやってきた！",
+            "description" : "Minecraft を使った Azure の新しい学び方というテーマで登壇しました。",
+            "link_event" : "https://jazug.connpass.com/event/279068/",
+            "link_document" : "https://speakerdeck.com/takunology/minecraft-woshi-tuta-azure-noxin-siixue-bifang",
+            "link_video" : "https://www.youtube.com/live/hBqhI1iUuMM?feature=share",
+            "link_img" : "https://media.connpass.com/thumbs/ba/26/ba262df56778acc24db342ef095d11a6.png"
+        },
+        {
+            "date" : "2023年3月12日",
+            "title" : "MLSA 卒業式＆歓迎会！@Microsoft Base 代官山",
+            "subtitle" : "",
+            "description" : "たくのろじぃの卒業式として、これまでに学んだことや学生エンジニアを目指す方へのアドバイスなど、色々と語り合いました。",
+            "link_event" : "https://mspjp.connpass.com/event/272926/",
+            "link_document" : "https://speakerdeck.com/takunology/mlsa-zu-ye-shi-and-huan-ying-hui-at-microsoft-base-dai-guan-shan",
+            "link_video" : "https://www.youtube.com/watch?v=KUt32AMBNnY",
+            "link_img" : "https://media.connpass.com/thumbs/f4/0a/f40a8b96864707b95e9505fb8b1ff162.png"
+        },
+        {
+            "date" : "2022年11月12日",
+            "title" : ".NET Conf 2022 Recap Event 東京 ~ Microsoft Japan Community Event Tour Series",
+            "subtitle" : "",
+            "description" : "MLSAとして学生同士で .NET っていいよね話を語り合いました。",
+            "link_event" : "https://msevents.microsoft.com/event?id=3219140458",
+            "link_document" : "https://www.microsoft.com/cms/api/am/binary/RE5c8Zg",
+            "link_video" : "#",
+            "link_img" : "#"
+        },
+        {
+            "date" : "2022年8月21日",
+            "title" : "MS Tech Camp 2周年記念イベント@Microsoft Base 代官山＋Youtube",
+            "subtitle" : "",
+            "description" : "2022年の10月で、MS Tech Campは開催2周年を迎えますので Microsoft Base 代官山でオフラインイベントを開催しました！ゲストをお呼びし、交流会を行いました。",
+            "link_event" : "https://mspjp.connpass.com/event/260855/",
+            "link_document" : "#",
+            "link_video" : "https://youtu.be/Gq_P4v3SBv0",
+            "link_img" : "https://media.connpass.com/thumbs/aa/4c/aa4c01dde9eb9497dcb043d163767037.png"
+        },
+        {
+            "date" : "2022年8月21日",
+            "title" : "MS Tech Camp #17 後夜祭！～マイクラ花火師入門～",
+            "subtitle" : "C# プログラミングでマイクラ花火を楽しもう！",
+            "description" : "MS Tech Camp #17 から更に花火プログラムにフォーカスして、いかに複雑で感動させられるような花火プログラムを構想できるかについて考え、実装する方法について紹介しました。",
+            "link_event" : "https://mspjp.connpass.com/event/249975/",
+            "link_document" : "https://speakerdeck.com/takunology/minecraftfireworks",
+            "link_video" : "https://youtu.be/14vcTqRFhRg",
+            "link_img" : "https://media.connpass.com/thumbs/80/68/8068e58dd40cca7177c4e10d2b0e0207.png"
+        },
+        {
+            "date" : "2022年8月21日",
+            "title" : "C# で Minecraft プログラミングをはじめよう！",
+            "subtitle" : "MS Tech Camp #17",
+            "description" : "C# で Minecraft プログラミングを始める方法について紹介します。マイクラサーバの構築から RCON の設定、プログラムの書き方まで一通り説明しました。",
+            "link_event" : "https://mspjp.connpass.com/event/249964/",
+            "link_document" : "https://zenn.dev/takunology/articles/mstechcamp17",
+            "link_video" : "https://youtu.be/J0DDGL9KvXA",
+            "link_img" : "https://media.connpass.com/thumbs/f9/7e/f97e905c0f0252a65c407f439dbf4f2b.png"
+        },
+        {
+            "date" : "2022年7月24日",
+            "title" : "Ambassadors Meetup 2022",
+            "subtitle" : "Microsoft Learn Student Ambassadors について紹介します！",
+            "description" : "MLSAの紹介と特典について、雑談形式に近い発表を行いました。",
+            "link_event" : "https://mspjp.connpass.com/event/249961/",
+            "link_document" : "https://speakerdeck.com/takunology/ambassadors-meetup-2022",
+            "link_video" : "https://www.youtube.com/watch?v=_t9epZhuYRg",
+            "link_img" : "https://media.connpass.com/thumbs/cc/34/cc344d520c66c43cadb722065c92274a.png"
+        },
+        {
             "date" : "2022年4月16日",
             "title" : "MS Tech Camp #14",
             "subtitle" : "Blazor (HTML/CSS + C#) でポートフォリオサイトを作成して公開しよう！",

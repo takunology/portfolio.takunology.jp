@@ -8,13 +8,6 @@
             "img" : "images/activity/blog.png"
         },
         {
-            "title" : "Microsoft Learn Student Ambassadors",
-            "type" : "コミュニティ",
-            "description" : "Microsoft 製品や技術について広めていく活動を行っており、月に一度を目安にイベントを開催しています",
-            "link" : "https://studentambassadors.microsoft.com/en-US/profile/80927",
-            "img" : "images/activity/mlsa.png"
-        },
-        {
             "title" : "Minecraft with Code Project 企画・運営",
             "type" : "コミュニティ",
             "description" : "Minecraft と プログラミング (主に C#) を組み合わせた新しいコンテンツづくりに挑戦しています。",
@@ -29,11 +22,11 @@
             "img" : "images/activity/mclogo.png"
         },
         {
-            "title" : "classmall kids プログラミング講師",
-            "type" : "講師",
-            "description" : "マイクラを使用したプログラミング講師を行っています。",
-            "link" : "https://lp.classmall.jp/kids",
-            "img" : ""
+            "title" : "Microsoft Learn Student Ambassadors (2021 - 2023)",
+            "type" : "コミュニティ",
+            "description" : "Microsoft 製品や技術について広めていく活動を行っており、月に一度を目安にイベントを開催しています",
+            "link" : "https://studentambassadors.microsoft.com/en-US/profile/80927",
+            "img" : "images/activity/mlsa.png"
         }
     ]
 }
