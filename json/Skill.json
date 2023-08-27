@@ -1,0 +1,148 @@
+{
+    "comment":"これまでに使用してきたプログラミング言語、フレームワークなどです。基本的に Web まわりよりも WPF や コンソールアプリケーションを多く使用します。",
+    "program_lang" : [
+        {
+            "name":"C#",
+            "comment":"基本的な文法やオブジェクト指向、LINQなどを使用した実装は可能です。外部ライブラリはリファレンスを参照しながら実装できます。最も利用している言語です。",
+            "icon":"images/skill/lang/cs.png"
+        },
+        {
+            "name":"C",
+            "comment":"基本的な文法は問題ありませんが、メモリ操作や複雑なポインタは苦手です。授業で習得しました。",
+            "icon":"images/skill/lang/c.png"
+        },
+        {
+            "name":"C++",
+            "comment":"リファレンスを参照しながらであれば実装できます。OpenCV で利用しました。",
+            "icon":"images/skill/lang/cpp.png"
+        },
+        {
+            "name":"Java",
+            "comment":"Minecraft の Mod 開発で触った程度ですが、リファレンスがあれば実装できます。C# と似ている部分があるのでたまに混乱します。",
+            "icon":"images/skill/lang/java.png"
+        }
+    ],
+    "markup" : [
+        {
+            "name":"HTML",
+            "comment":"基本的な文法は習得しています。",
+            "icon":"images/skill/markup/html.png"
+        },
+        {
+            "name":"XAML",
+            "comment":"基本的な文法は習得していますが、WinUI などの外部コントロールを利用する場合はリファレンスの参照が必要です。",
+            "icon":"images/skill/markup/xaml.png"
+        },
+        {
+            "name":"CSS/SCSS",
+            "comment":"リファレンスを参照しながら実装可能です。ブログサイトのデザインの際に触りました。",
+            "icon":"images/skill/markup/css.png"
+        }
+    ],
+    "framework" : [
+        {
+            "name":".NET",
+            "comment":"クラスライブラリ製作とリリース (NuGet) 経験があります。",
+            "icon":"images/skill/framework/dotnet.png"
+        },
+        {
+            "name":"ASP.NET Core",
+            "comment":"MVCに関してはリファレンスを参照しながらであれば実装できます。Razor 構文は大丈夫です。",
+            "icon":"images/skill/framework/aspcore.png"
+        },
+        {
+            "name":"Blazor",
+            "comment":"コンポーネントの継承やロジックの分離を意識して実装できます。",
+            "icon":"images/skill/framework/blazor.png"
+        },
+        {
+            "name":"WPF/UWP",
+            "comment":"データバインディングを意識しながら実装できます。本来の使い方での MVVM は勉強中です。",
+            "icon":"images/skill/framework/wpf.png"
+        },
+        {
+            "name":"Xamarin/MAUI",
+            "comment":"過去に何度か触ったことがある程度ですが、リファレンスを見ながらであればできそうです。",
+            "icon":"images/skill/framework/xamarin.png"
+        },
+        {
+            "name":"Bootstrap 5",
+            "comment":"ASP.NET Core Web アプリのフレームワークとしてそのまま利用しています。カスタマイズの経験はありません。",
+            "icon":"images/skill/framework/bootstrap.png"
+        },
+        {
+            "name":"Next.js",
+            "comment":"Fireworks Project のサイト構築に使用しています。リファレンスを参照しながらであれば実装できます。",
+            "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png"
+        },
+        {
+            "name":"Forge",
+            "comment":"マイクラの Mod 開発で少し触った程度ですが、リファレンスを参照しながらであれば実装できます。",
+            "icon":"images/skill/framework/forge.jpg"
+        }
+    ],
+    "cloud" : [
+        {
+            "name":"Azure Static Web Apps",
+            "comment":"Blazor による SPA のデプロイで利用しました。GitHub と連携して CI/CD によるデプロイが可能です。",
+            "icon":"images/skill/cloud/azure_staticweb.svg"
+        },
+        {
+            "name":"Azure Web Apps",
+            "comment":"ASP.NET Core Web アプリケーションで作成したプロジェクトサイトの運営で利用しています。GitHub と連携して CI/CD によるデプロイが可能です。",
+            "icon":"images/skill/cloud/azure_web.svg"
+        },
+        {
+            "name":"Azure Virtual Machines",
+            "comment":"Linux (Ubuntu) 上でマイクラサーバを運用しています。また、NSG によるポート規制の設定もできます。",
+            "icon":"images/skill/cloud/azure_vm.svg"
+        },
+        {
+            "name":"Azure Functions",
+            "comment":"Web API を作成するときに使用しました。HTTP トリガー や ComsomDB トリガーによる入出力バインドを用いて .NET (C#) で実装した経験があります。",
+            "icon":"images/skill/cloud/azure_functions.svg"
+        },
+        {
+            "name":"Azure Cosmos DB",
+            "comment":"マイクラで収穫した作物を記録するのに利用しました。Functions からドキュメントへアクセスしてデータの読み書きはできます。",
+            "icon":"images/skill/cloud/azure_cosmosdb.svg"
+        }
+    ],
+    "other" : [
+        {
+            "name":"Visual Studio",
+            "comment":"普段から利用している IDE です。ホットリロードやデバッグなどで重宝しています。",
+            "icon":"images/skill/other/vs.png"
+        },
+        {
+            "name":"Visual Studio Code",
+            "comment":"JSON や C/C++ などの比較的軽量なプロジェクトで利用しています。Copilot の拡張機能が便利ですね。",
+            "icon":"images/skill/other/vscode.png"
+        },
+        {
+            "name":"GitHub",
+            "comment":"OSS活動やバックアップで利用しています。Actions による CI/CD 開発の経験はありますが、Workflow ファイルはリファレンスを参照しないと書けません。",
+            "icon":"images/skill/other/github.png"
+        },
+        {
+            "name":"Minecraft",
+            "comment":"プラグインや Mod を含むサーバ構築、コマンド操作ができます。すごい建築はできません。",
+            "icon":"images/skill/other/minecraft.png"
+        },
+        {
+            "name":"Arduino",
+            "comment":"センサを利用して値を取得し、シリアル通信 (C# による COM 参照) を介して可視化するところまでできます。",
+            "icon":"images/skill/other/arduino.png"
+        },
+        {
+            "name":"Microsoft Office",
+            "comment":"Excel は基本的な関数、Power Point ではスライドマスターを利用した作成ができます。",
+            "icon":"images/skill/other/office.png"
+        },
+        {
+            "name":"Power Platform",
+            "comment":"Apps と Automate はチュートリアルをやりました。リファレンスを参照しながらであれば実装できそうです。",
+            "icon":"images/skill/other/powerapps.png"
+        }
+    ]
+}
